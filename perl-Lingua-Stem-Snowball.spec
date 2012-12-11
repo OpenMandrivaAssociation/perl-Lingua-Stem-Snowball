@@ -58,3 +58,21 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.952.0-3
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 0.952.0-2mdv2011.0
++ Revision: 555995
+- rebuild for perl 5.12
+
+* Sun Nov 29 2009 Jérôme Quelin <jquelin@mandriva.org> 0.952.0-1mdv2010.1
++ Revision: 471172
+- import perl-Lingua-Stem-Snowball
+
+
+* Sun Nov 29 2009 cpan2dist 0.952-1mdv
+- initial mdv release, generated with cpan2dist
